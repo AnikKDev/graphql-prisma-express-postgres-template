@@ -1,6 +1,6 @@
 import { ApolloServer } from "@apollo/server";
-import resolvers from "./users/resolvers";
-import typeDefs from "./users/typeDef";
+import resolvers from "./users/resolvers.users";
+import typeDefs from "./users/typeDef.users";
 
 async function createApolloServer() {
   const gqlServer = new ApolloServer({

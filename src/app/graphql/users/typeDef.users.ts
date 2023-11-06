@@ -1,5 +1,5 @@
-import mutations from "./mutations";
-import queries from "./queries";
+import mutations from "./mutations.users";
+import queries from "./queries.users";
 
 const typeDefs = `
 type Query {
